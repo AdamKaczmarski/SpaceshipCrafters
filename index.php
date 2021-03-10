@@ -1,0 +1,9 @@
+<?php
+require("./containers/Head/head.php");
+?>
+<body>
+    <?php
+    require("./containers/Navbar/navbar.php");
+    ?>
+</body>
+</html>
