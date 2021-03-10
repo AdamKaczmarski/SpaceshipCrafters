@@ -1,7 +1,7 @@
 <main class="px-3">
     <div >
         <h1 class="display-1">Spaceship Crafters </h1>
-        <p class="lead ">
+        <p class="lead display-6">
             We make the best ships there are in the universe!<br>
             Your rocket, our dream
         </p>
