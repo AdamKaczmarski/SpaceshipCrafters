@@ -1,7 +1,9 @@
+<header class="mb-auto">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a  href="#" class="navbar-brand">
-            <img src="./assets/images/clipart-rocket-logo-1-transparent-white.png" alt=""width="30" height="30"/>
+            <img src="./assets/images/clipart-rocket-logo-1-transparent-white.png" alt=""width="30" height="30"
+                class="d-inline-block align-top"/>
             Spaceship Crafters
         </a>
 
@@ -11,7 +13,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="#" class="nav-link">About</a>
@@ -22,6 +24,5 @@
             </ul>
         </div>
     </div>
-
-
 </nav>
+</header>
