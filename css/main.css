@@ -14,3 +14,7 @@ body {
 #aboutus:hover {
     background-color:#97C8EB;
 }
+.icon {
+    text-decoration: none;
+    color:#fff;
+}
