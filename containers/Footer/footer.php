@@ -1,4 +1,4 @@
-<footer class="mt-auto ">
+<footer class="mt-auto">
     <p class="text-white-50 mb-0">Copyright &copy; 2021 Spaceship Crafters</p>
     <p class="">Follow us on social media</p>
     <div class="row justify-content-center">
