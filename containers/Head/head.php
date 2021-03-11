@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="./css/main.css"/>
+    
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    
+    <link rel="stylesheet" href="./css/main.css"/>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">  

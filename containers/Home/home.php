@@ -5,7 +5,7 @@
             We make the best ships there are in the universe!<br>
             Your rocket, our dream
         </p>
-        <a href="#">
+        <a href="./about.php">
             <button type="button" id="aboutus" class="btn btn-outline-light btn-lg">About us</button>
         </a>
     </div>

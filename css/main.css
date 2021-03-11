@@ -6,7 +6,7 @@
 body {
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .2);
     /*background-image:url("../assets/images/test.jpg");*/
-    background-image:url(../assets//images/star-wars-background.jpg);
+    background-image:url(../assets/images/star-wars-background.jpg);
 }
 .navbar {
     border-radius: 1em;
@@ -22,8 +22,23 @@ body {
     height:32rem;
     vertical-align: center;
 }
-#adjustimg {
-    @media (max-width:1400px) {
-        /*(background-image:url("../assets/images/pic_1.jpg");*/
+@media (max-width:1400px){
+    .adjustimg {
+        background-position: center;
+        background-size: cover;
+    }
+    #pic3 {
+        background-image:url(../assets/images/pic_1.jpg);
+    }
+}
+@media (min-width:1401px){
+    .adjustimg{
+        background-size: cover;
+    }
+    .change-text-color{
+        color:black;
+    }
+    #pic3 {
+        background-image:url(../assets/images/pic_4.jpg);
     }
 }
