@@ -16,10 +16,13 @@
                     <a href="./index.php" class="nav-link active" aria-current="page">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="./about.php" class="nav-link">About</a>
                 </li>
                 <li class="navbar-item">
                     <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Login</a>
                 </li>
             </ul>
         </div>

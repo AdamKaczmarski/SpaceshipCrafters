@@ -18,3 +18,12 @@ body {
     text-decoration: none;
     color:#fff;
 }
+.carousel-item{
+    height:32rem;
+    vertical-align: center;
+}
+#adjustimg {
+    @media (max-width:1400px) {
+        /*(background-image:url("../assets/images/pic_1.jpg");*/
+    }
+}

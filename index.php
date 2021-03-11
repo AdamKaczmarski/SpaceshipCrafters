@@ -5,7 +5,7 @@ require("./containers/Head/head.php");
     <div class="container d-flex w-100 h-100 mx-auto p-3 text-center flex-column">
     <?php
     require("./containers/Navbar/navbar.php");
-    require("./containers/home/home.php");
+    require("./containers/Home/home.php");
     require('./containers/Footer/footer.php');
     ?>
     </div>
