@@ -8,24 +8,32 @@
             <div class="carousel-item active adjustimg" data-bs-interval="1000" style="background-image:url(./assets/images/pic_2.jpg);">
                 <!--<img src="./assets/images/pic_2.jpg" class="d-block w-100" alt="Pic 2" />
                  <div class="carousel-item active" style="background-image:url(./assets/images/pic_2.jpg);"></div> -->
-                <div class="carousel-caption d-none d-md-block change-text-color">
-                    <h5>Slide 1 label</h5>
-                    <p>Some text for it</p>
+                <div class="carousel-caption d-none d-md-block change-text-color no-link">
+                    <h5>Our launches are a show</h5>
+                    <a href="https://unsplash.com/photos/dCgbRAQmTQA">
+                        <cite title="Source Title">Source</cite>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item adjustimg" data-bs-interval="2000" style="background-image:url(./assets/images/pic_3.jpg);">
                 <!--<img src="./assets/images/pic_3.jpg" class="d-block w-100" alt="Pic 3"/> -->
-                <div class="carousel-caption d-none d-md-block change-text-color">
+                <div class="carousel-caption d-none d-md-block change-text-color no-link">
                     <h5>Slide 2 label</h5>
-                    <p>Some text for it</p>
+                    <a href="https://unsplash.com/photos/z2RlWyJ2-RU">
+                        <cite title="Source Title">Source</cite>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item adjustimg" id="pic3">
                <!-- <img src="./assets/images/pic_1.jpg" class="d-block w-100" alt="Pic 1"  id="adjustimg"/> -->
                 
-                <div class="carousel-caption d-none d-md-block text-white">
+                <div class="carousel-caption d-none d-md-block no-link">
                     <h5 >Our stunning interior</h5>
-                    <p>We have the best interior designer to make your dream come true</p>
+                    <p>We have the best interior designer to make your dream come true
+                        <a href="https://unsplash.com/photos/Sj_3Jdr19L4">
+                            <cite title="Source Title">(Source)</cite>
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>

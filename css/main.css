@@ -17,10 +17,15 @@ body {
 .icon {
     text-decoration: none;
     color:#fff;
+    font-weight:900;
 }
 .carousel-item{
     height:32rem;
     vertical-align: center;
+}
+.no-link a{
+    color:#fff;
+    text-decoration: none;
 }
 @media (max-width:1400px){
     .adjustimg {
@@ -36,9 +41,15 @@ body {
         background-size: cover;
     }
     .change-text-color{
-        color:black;
+        color:#000;
+    }
+    .no-link a{
+        color:#000;
     }
     #pic3 {
         background-image:url(../assets/images/pic_4.jpg);
+    }
+    #pic3 a {
+        color: #fff;
     }
 }
