@@ -18,7 +18,7 @@
             <div class="carousel-item adjustimg" data-bs-interval="2000" style="background-image:url(./assets/images/pic_3.jpg);">
                 <!--<img src="./assets/images/pic_3.jpg" class="d-block w-100" alt="Pic 3"/> -->
                 <div class="carousel-caption d-none d-md-block change-text-color no-link">
-                    <h5>Slide 2 label</h5>
+                    <h5>Spercial request, special rocket</h5>
                     <a href="https://unsplash.com/photos/z2RlWyJ2-RU">
                         <cite title="Source Title">Source</cite>
                     </a>

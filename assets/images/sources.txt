@@ -1,5 +1,7 @@
-star wars background: https://www.starwars.com/news/star-wars-backgrounds
-rocket logo: https://webstockreview.net/pict/getfirst
+star wars background: 
+	https://www.starwars.com/news/star-wars-backgrounds
+rocket logo: 
+	https://webstockreview.net/pict/getfirst
 spaceship photos:
 	https://unsplash.com/photos/dCgbRAQmTQA
 	https://unsplash.com/photos/Sj_3Jdr19L4
