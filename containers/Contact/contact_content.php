@@ -12,6 +12,7 @@
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
     </div>
     <div class="col-4">
+        <p>TBD RESPONSIVENESS: https://bootstrapstudio.io/tutorials/google-maps</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13243.179055458959!2d-118.3280263!3d33.9206814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5589bf4232c10232!2sSpacex!5e0!3m2!1spl!2spl!4v1615569799831!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
     </div>
 </div>
