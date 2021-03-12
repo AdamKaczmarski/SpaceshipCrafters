@@ -7,8 +7,7 @@ require("./containers/Head/head.php");
     require("./containers/Navbar/navbar.php");
     require("./containers/Login/login.php");
     require("./containers/Register/register.php");
-    require("./containers/About/about_content.php");
-    require("./containers/About/gallery.php");
+    require("./containers/Contact/contact_content.php");
     require('./containers/Footer/footer.php');  
     ?>
     </div>

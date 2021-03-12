@@ -8,6 +8,9 @@ body {
     /*background-image:url("../assets/images/test.jpg");*/
     background-image:url(../assets/images/star-wars-background.jpg);
 }
+a {
+  text-decoration: none;  
+}
 .navbar {
     border-radius: 1em;
 }
@@ -25,7 +28,16 @@ body {
 }
 .no-link a{
     color:#fff;
-    text-decoration: none;
+    
+}
+.register-link{
+    
+    color:#6c757d;
+    transition: 0.2s;
+}
+.register-link:hover{
+    color:white;
+    transition: 0.2s;
 }
 @media (max-width:1400px){
     .adjustimg {

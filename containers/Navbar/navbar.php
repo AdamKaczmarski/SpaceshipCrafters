@@ -19,10 +19,10 @@
                     <a href="./about.php" class="nav-link">About</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="./contact.php" class="nav-link">Contact</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">Login</a>
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
                 </li>
             </ul>
         </div>
