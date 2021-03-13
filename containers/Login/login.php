@@ -5,18 +5,18 @@
                 <h2 class="modal-title" id="Login">Login</h2>
             </div>
             <div class="modal-body">
-                <form>
+                <form role="form" action="./containers/Authentication/authentication.php" method="post">
                     <div class="mb-3">
-                        <label for="usernameLogin" class="form-label">Username</label>
-                        <input type="text" class="form-control" id="usernameLogin">
+                        <label for="usernameLogin" class="form-label" >Username</label>
+                        <input type="text" class="form-control" id="usernameLogin" name="username">
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="passwordLogin">
+                        <label for="password" class="form-label" >Password</label>
+                        <input type="password" class="form-control" id="passwordLogin" name="password">
                     </div>
                     <div class="mb-3 form-check">
                         <label class="form-check-label" for="remember-password">
-                            <input type="checkbox" class="form-check-input" id="remember-password">
+                            <input type="checkbox" class="form-check-input" id="remember-password" name="remember">
                             Remember me
                         </label>
                     </div>
@@ -27,10 +27,8 @@
                         </p>
                         <div class="justify-content-end">
                             <button type="button" class="btn btn-secondary btn-block" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="submit" class="btn btn-primary" name="btnLogin">Login</button>
                         </div>
-                        
-                        
                     </div>
                 </form>
             </div>

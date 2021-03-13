@@ -9,7 +9,11 @@ require("./containers/Head/head.php");
     require("./containers/Register/register.php");
     require("./containers/Contact/contact_content.php");
     require('./containers/Footer/footer.php');  
+    require("./containers/Handlers/modal_failure_handler.php");
+    require("./containers/Handlers/modal_success_handler.php");
+    
     ?>
     </div>
+    <script src="./js/deleteModal.js"></script>
 </body>
 </html>

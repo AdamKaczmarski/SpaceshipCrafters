@@ -10,7 +10,10 @@ require("./containers/Head/head.php");
     require("./containers/About/about_content.php");
     require("./containers/About/gallery.php");
     require('./containers/Footer/footer.php');  
+    require("./containers/Handlers/modal_failure_handler.php");
+    require("./containers/Handlers/modal_success_handler.php");
     ?>
+    <script src="./js/deleteModal.js"></script>
     </div>
 </body>
 </html>
