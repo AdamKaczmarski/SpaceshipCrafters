@@ -13,16 +13,10 @@
     </div>
     <div class="col-lg-6">
         <!--<p>TBD RESPONSIVENESS: https://bootstrapstudio.io/tutorials/google-maps</p>-->
-        <div class="ratio ratio-4x3 m-3">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13243.179055458959!2d-118.3280263!3d33.9206814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5589bf4232c10232!2sSpacex!5e0!3m2!1spl!2spl!4v1615569799831!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+        <div class="ratio ratio-4x3 my-3">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13243.179055458959!2d-118.3280263!3d33.9206814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5589bf4232c10232!2sSpacex!5e0!3m2!1spl!2spl!4v1615569799831!5m2!1spl!2spl"  style="border:0;"  loading="lazy"></iframe>
 
         </div>
     </div>
 </div>
-<div class="row justify-content-center">
-    <div class="col">
-        
-    </div>
-</div>
-
 </main>
