@@ -26,10 +26,12 @@
                             <a href="#" class="register-link" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Register</a>
                         </p>
                         <div class="justify-content-end">
+                            <input type="text" value="<?php echo $_SERVER['REQUEST_URI']; ?>" style="display:none;" name="path"/>
                             <button type="button" class="btn btn-secondary btn-block" data-bs-dismiss="modal">Close</button>
                             <button type="submit" class="btn btn-primary" name="btnLogin">Login</button>
                         </div>
                     </div>
+                    
                 </form>
             </div>
             
