@@ -22,4 +22,9 @@ if (isset($_GET['db_connFail'])){
     require('./containers/Modals/Failure/db_conn_failed.php');
     addButton('conn-failModal');
 }
+if(isset($_GET['regEmpty'])){
+    require('./containers/Modals/Failure/registration_failed_empty.php');
+    addButton('register-failEmptyModal');  
+}
+
 ?>
