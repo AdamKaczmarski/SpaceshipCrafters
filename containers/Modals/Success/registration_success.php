@@ -1,4 +1,4 @@
-<div class="modal fade" id="regSuccess" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="regSuccess" data-bs-backdrop="static" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-dark">
             <div class="modal-header justify-content-center" style="border-bottom: 1px solid gray;">

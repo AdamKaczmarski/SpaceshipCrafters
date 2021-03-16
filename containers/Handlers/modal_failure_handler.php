@@ -26,5 +26,9 @@ if(isset($_GET['regEmpty'])){
     require('./containers/Modals/Failure/registration_failed_empty.php');
     addButton('register-failEmptyModal');  
 }
+if (isset($_GET['reg'])){
+    require('./containers/Register/register.php');
+    addButton('register-failEmptyModal');  
+}
 
 ?>
