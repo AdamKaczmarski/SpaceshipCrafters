@@ -23,7 +23,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="phoneNumberRegister" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" name="phoneNumberRegister">
+                        <input type="text" class="form-control" name="phoneNumberRegister">
                     </div>
                     <div class="mb-3">
                         <label for="emailRegister" class="form-label">Email address</label>
