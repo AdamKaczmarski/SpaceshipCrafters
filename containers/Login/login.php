@@ -8,7 +8,7 @@
                 <form role="form" action="./containers/Authentication/authentication.php" method="post">
                     <div class="mb-3">
                         <label for="usernameLogin" class="form-label" >Username</label>
-                        <input type="text" class="form-control" id="usernameLogin" name="username">
+                        <input type="text" class="form-control" id="usernameLogin" name="username" value="<?php if(isset($_COOKIE['spaceship-crafters-username']))echo $_COOKIE['spaceship-crafters-username'];?>">
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label" >Password</label>
