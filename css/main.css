@@ -65,3 +65,11 @@ a {
         color: #fff;
     }
 }
+.bkA{
+    color:#fff;
+    transition: 0.2s;
+}
+.bkA:hover{
+    color:powderblue;
+    transition: 0.2s;
+}

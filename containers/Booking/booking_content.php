@@ -1,21 +1,26 @@
+<script src="./js/jquery-3.6.0.js"></script>
+<script src="./js/bookingContent.js"></script>
 <?php 
 if (isset($_SESSION['loggedUser'])){
     ?>
     <main class="px-3">
-<div class="row">
-    <div class="col">
-        <h2 class="display-4">Book an appointement</h2>
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3 mx-3">
+                <a href="#" id="bookApp" class="bkA"><h2>Available Appointments</h2></a>
+            </div>
+            <div class="col-3 mx-3">
+                <a href="#" id="bookHis" class="bkA"><h2>Requested Appointments</h2></a>
+            </div>
+        </div>
+        <div id="bookingContent">
+            
+        </div>
     </div>
-</div>
-<div class="row justify-content-center">
-    <div class="col-lg-4">
-        <p class="lead">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis, praesentium voluptate itaque, repudiandae architecto non laboriosam quo minima delectus quis doloremque ipsa doloribus aliquid temporibus? Numquam aperiam aspernatur voluptate!
-        </p>
-        
-    </div>
-</div>
-</main>
+    </main>
+    
 
     <?php
 } else {

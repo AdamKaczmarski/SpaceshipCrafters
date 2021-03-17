@@ -1,0 +1,9 @@
+$(document).ready(()=>{
+ $('#bookApp').click(()=>{
+     $('#bookingContent').html("dup[a");
+ })
+ $('#bookHis').click(()=>{
+     $('#bookingContent').load('./containers/Booking/booking_history.php');
+     //$('#bookingContent').html('elo');
+ })
+})
