@@ -7,28 +7,36 @@ function addButton($modalID){
     </script>";
 }
 if(isset($_GET['logEmpty'])){
-    require('./containers/Modals/Failure/login_failed_empty.php');
+    @include('./containers/Modals/Failure/login_failed_empty.php');
     addButton('login-failEmptyModal');  
 }
 if(isset($_GET['logFail'])){
-    require('./containers/Modals/Failure/login_failed_wrong.php');
+    @include('./containers/Modals/Failure/login_failed_wrong.php');
     addButton('login-failWrongModal');  
 }
 if (isset($_GET['regTaken'])){
-    require('./containers/Modals/Failure/registration_failed_taken.php');
+    @include('./containers/Modals/Failure/registration_failed_taken.php');
     addButton('reg-failModal');  
 }
 if (isset($_GET['db_connFail'])){
-    require('./containers/Modals/Failure/db_conn_failed.php');
+    @include('./containers/Modals/Failure/db_conn_failed.php');
     addButton('conn-failModal');
 }
 if(isset($_GET['regEmpty'])){
-    require('./containers/Modals/Failure/registration_failed_empty.php');
+    @include('./containers/Modals/Failure/registration_failed_empty.php');
     addButton('register-failEmptyModal');  
 }
 if (isset($_GET['reg'])){
-    require('./containers/Register/register.php');
+    @include('./containers/Register/register.php');
     addButton('register-failEmptyModal');  
+}
+if (isset($_GET['regWrongInputs'])){
+    @include('./containers/Modals/Failure/registration_wrong_input.php');
+    addButton('register-failWrongModal');
+}
+if (isset($_GET['regPassNMatch'])){
+    include('./containers/Modals/Failure/registration_password_not_match.php');
+    addButton('reg-pNModal');
 }
 
 ?>
