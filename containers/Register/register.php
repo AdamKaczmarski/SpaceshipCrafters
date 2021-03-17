@@ -23,7 +23,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="phoneNumberRegister" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" name="phoneNumberRegister">
+                        <input type="text" value="00" class="form-control" name="phoneNumberRegister" aria-describedby="phoneNumberHelp">
+                        <!--<div class="phoneNumberHelp" class="form-text" style="color:#6c757d;">Please enter in format 00(country code)(number) eg. 00447640328345</div>-->
                     </div>
                     <div class="mb-3">
                         <label for="emailRegister" class="form-label">Email address</label>
