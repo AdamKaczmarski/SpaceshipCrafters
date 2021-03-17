@@ -35,7 +35,7 @@ if (isset($_GET['regWrongInputs'])){
     addButton('register-failWrongModal');
 }
 if (isset($_GET['regPassNMatch'])){
-    include('./containers/Modals/Failure/registration_password_not_match.php');
+    @include('./containers/Modals/Failure/registration_password_not_match.php');
     addButton('reg-pNModal');
 }
 
