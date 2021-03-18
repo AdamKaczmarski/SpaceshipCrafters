@@ -41,6 +41,7 @@ TABLEROW;
                 ?><p class="text-lead display-6">No appointments have been requested.
                 Please use the form below to request an appointment.</p><?php
             }
+            $result->free_result();
         }
         ?> 
             
