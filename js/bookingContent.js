@@ -45,6 +45,7 @@ $(document).ready(()=>{
             success: function(){
                 $('#bookingContent').load('./containers/Booking/booking_history.php');
             }
+            
         });
     }
  }
