@@ -38,11 +38,11 @@ if (isset($_POST['btnRegister'])
                         $insertQuery="INSERT INTO adbt214_Users (username,first_name,last_name,phone_number,email,password) VALUES('$username','$fname','$lname','$phnum','$email','$hpass');";
                         if ($resultInsert = $conn->query($insertQuery)){
                             $_SESSION['loggedUser']=$username;
-                            $resultInsert->free_result();
+                            
                             header("Location: ".$_POST['path']."?regSuccess");
                         }
                     }
-                    $resultTaken->free_result;
+                    
                 }
         } else {
             if(strpos($_POST['path'],"?")>0){
