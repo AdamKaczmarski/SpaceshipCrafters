@@ -30,7 +30,8 @@ $(document).ready(()=>{
          },
          dataType:'html',
          success: (response)=>{
-             $('#bookingTime').append(response);
+            $('#bookingTime').empty();
+            $('#bookingTime').append(response);
          }
      })
      if ( $("#bookingDate").hasClass("is-valid")){
