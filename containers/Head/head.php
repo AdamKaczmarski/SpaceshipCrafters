@@ -17,9 +17,11 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./css/main.css"/>
 
+
+    <!-- FONT FROM GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">  
 </head>

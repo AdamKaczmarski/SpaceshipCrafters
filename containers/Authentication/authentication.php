@@ -24,6 +24,7 @@ if (isset($_POST['btnLogin']) && isset($_POST['username']) && isset($_POST['pass
         } else {
             changeURL($_POST['path'],'?logFail');
         }
+        $result->free_result();
     } else {
         changeURL($_POST['path'],'?logFail');
     }
