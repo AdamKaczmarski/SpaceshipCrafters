@@ -27,8 +27,8 @@ if (isset($_POST['btnRegister'])
         $email= strtolower(scrapeData($conn,$_POST['emailRegister']));
         $hpass= md5(scrapeData($conn,$_POST['passwordRegister']));
 
-        if (filter_var($email,FILTER_VALIDATE_EMAIL) && preg_match("/^[a-zA-Z]+$/",$username) && preg_match("/^[a-zA-Z]+$/",$fname)
-            && preg_match("/^[a-zA-Z]+$/",$lname) && preg_match("/^(\+|00)\d[0-9]{7,17}$/",$phnum) 
+        if (preg_match("/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/",$email) &&  /*preg_match("/^[a-zA-Z]+$/",$fname)
+            && preg_match("/^[a-zA-Z]+$/",$lname) &&*/ preg_match("/^(\+|00)\d[0-9]{7,17}$/",$phnum) 
             && preg_match("/^\S*(?=\S{6,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])(?=\S*[\W])\S*$/",$_POST['passwordRegister'])){
                 $checkForTakenQuery = "SELECT * FROM adbt214_Users WHERE username='$username' OR email='$email';";
                 if ($resultTaken = $conn->query($checkForTakenQuery)){
