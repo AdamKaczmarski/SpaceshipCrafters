@@ -6,11 +6,11 @@
     </div>
     <div class="row">
         <div class="col-lg-6  col-md-12 pt-3">
-                <label for="bookingDate">Please select the date</label>
+                <label for="bookingDate">Please select the date, <br> We only meet from Monday to Friday</label>
                 <input type="date" class="form-control" name="bookingDate" id="bookingDate" onchange="bookingDateHandler()">
         </div>
         <div class="col-lg-6  col-md-12 pt-3">
-                <label for="bookingTime">Please select the time</label>
+                <label for="bookingTime">Please select the time, <br> Only 4 time slots are available</label>
                 <select name="bookingTime" id="bookingTime" class="form-select" disabled onchange="bookingTimeHandler()">
                     <option selected>Choose the time</option>
                 </select>
@@ -23,5 +23,6 @@
         </div>
     </div>
 </form>
+
 
 

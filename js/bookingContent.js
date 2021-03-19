@@ -6,10 +6,23 @@ $(document).ready(()=>{
      $('#bookingContent').load('./containers/Booking/booking_history.php');
      //$('#bookingContent').html('elo');
  })
+
  });
- 
  const bookingDateHandler =()=>{
      const date = $("#bookingDate").val();
+     const date2= new Date(Date.parse($("#bookingDate").val()));
+     if (date2.getDay()==6 || date2.getDay()==7){
+        $("#bookingDate").removeClass("is-valid");
+        $("#bookingDate").addClass("is-invalid");
+     } else {  
+         if (date2>Date.now()){
+            $("#bookingDate").removeClass("is-invalid");
+            $("#bookingDate").addClass("is-valid");
+         }  else {
+            $("#bookingDate").removeClass("is-valid");
+            $("#bookingDate").addClass("is-invalid");
+         }
+     }
      $.ajax({
          url: "./containers/Booking/open_hours.php",
          type: "post",
@@ -21,11 +34,23 @@ $(document).ready(()=>{
              $('#bookingTime').append(response);
          }
      })
-     $('#bookingTime').removeAttr("disabled");
+     if ( $("#bookingDate").hasClass("is-valid")){
+        $('#bookingTime').removeAttr("disabled");
+     } else {
+        $('#bookingTime').attr("disabled",true);
+        bookingTimeHandler();
+     }
+
+     
  }
 
  const bookingTimeHandler=()=>{
-    $('#btnApp').removeAttr("disabled");
+    if($('#bookingTime').prop("disabled")){
+        $('#btnApp').attr("disabled",true);
+    } else {
+        $('#btnApp').removeAttr("disabled");
+    }
+    
  }
 
  const insertBooking=()=>{
