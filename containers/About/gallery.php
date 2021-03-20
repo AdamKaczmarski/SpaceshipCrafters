@@ -5,7 +5,7 @@
             <button type="button" data-bs-target="#slideShow" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active adjustimg" data-bs-interval="1000" style="background-image:url(./assets/images/pic_2.jpg);">
+            <div class="carousel-item active adjustimg" data-bs-interval="2000" style="background-image:url(./assets/images/pic_2.jpg);">
                 <!--<img src="./assets/images/pic_2.jpg" class="d-block w-100" alt="Pic 2" />
                  <div class="carousel-item active" style="background-image:url(./assets/images/pic_2.jpg);"></div> -->
                 <div class="carousel-caption d-none d-md-block change-text-color no-link">
@@ -24,7 +24,7 @@
                     </a>
                 </div>
             </div>
-            <div class="carousel-item adjustimg" id="pic3">
+            <div class="carousel-item adjustimg" data-bs-interval="2000" id="pic3">
                <!-- <img src="./assets/images/pic_1.jpg" class="d-block w-100" alt="Pic 1"  id="adjustimg"/> -->
                 
                 <div class="carousel-caption d-none d-md-block no-link">
