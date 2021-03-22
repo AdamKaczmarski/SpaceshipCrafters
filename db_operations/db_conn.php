@@ -3,7 +3,7 @@ $host="";
 $user="";
 $password = "";
 
-$db = "adbt214";
+$db = "";
 
 $conn = @new mysqli($host,$user,$password,$db);
 if ($conn->connect_error) {
