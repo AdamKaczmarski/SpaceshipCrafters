@@ -1,11 +1,8 @@
 <?php
-$host="smcse-stuproj00.city.ac.uk";
-$user="adbt214";
-$password = "200047951";
+$host="";
+$user="";
+$password = "";
 
-//$host = "localhost";
-//$user = "root";
-//$password ="";
 $db = "adbt214";
 
 $conn = @new mysqli($host,$user,$password,$db);
