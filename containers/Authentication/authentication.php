@@ -1,5 +1,15 @@
 <?php
 session_start();
+function scrapeData($conn,$data){
+    $data = trim($data);
+    $data = $conn->real_escape_string($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    $data = htmlentities($data);
+    $data = strip_tags($data);
+    return $data;
+}
+
 function changeURL($x,$code){
     if(strpos($x,"?")>0){
         $newpath = str_replace(substr($x,strpos($x,"?")),"",$x);
@@ -8,10 +18,11 @@ function changeURL($x,$code){
         header("Location: ".$x.$code);
     }
 }
+
 if (isset($_POST['btnLogin']) && isset($_POST['username']) && isset($_POST['password']) && $_POST['username']!="" && $_POST['password']!=""){
     require("./../../db_operations/db_conn.php");
-    $username = $conn->real_escape_string(trim(@$_POST['username']));
-    $hpass = md5($conn->real_escape_string(trim(@$_POST['password'])));
+    $username = scrapeData($conn,@$_POST['username']);
+    $hpass = md5(scrapeData($conn,@$_POST['password']));
     $query = "SELECT username FROM adbt214_Users WHERE username = '$username' AND password='$hpass';";
     if ($result = $conn->query($query)) {
         if ($result->num_rows==1){

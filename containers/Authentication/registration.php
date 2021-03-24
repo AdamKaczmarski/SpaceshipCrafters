@@ -8,6 +8,8 @@ function scrapeData($conn,$data){
     $data = $conn->real_escape_string($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
+    $data = htmlentities($data);
+    $data = strip_tags($data);
     return $data;
 }
 if (isset($_POST['btnRegister']) 
@@ -57,17 +59,18 @@ if (isset($_POST['btnRegister'])
         if(strpos($_POST['path'],"?")>0){
             $newpath = str_replace(substr($_POST['path'],strpos($_POST['path'],"?")),"",$_POST['path']);
             echo $newpath;
-            header("Location: ".$newpath."?regEmpty");
+            header("Location: ".$newpath."?regPassNMatch");
         } else {
-            header("Location: ".$_POST['path']."?regEmpty");
+            header("Location: ".$_POST['path']."?regPassNMatch");
         }
     } else {
         if(strpos($_POST['path'],"?")>0){
             $newpath = str_replace(substr($_POST['path'],strpos($_POST['path'],"?")),"",$_POST['path']);
             echo $newpath;
-            header("Location: ".$newpath."?regPassNMatch");
+            header("Location: ".$newpath."?regEmpty");
         } else {
-            header("Location: ".$_POST['path']."?regPassNMatch");
+            header("Location: ".$_POST['path']."?regEmpty");
         }
+        
     }
 ?>

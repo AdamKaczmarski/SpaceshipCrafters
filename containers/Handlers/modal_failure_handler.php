@@ -38,5 +38,9 @@ if (isset($_GET['regPassNMatch'])){
     @include('./containers/Modals/Failure/registration_password_not_match.php');
     addButton('reg-pNModal');
 }
+if (isset($_GET['wrongDate'])){
+    @include('./containers/Modals/Failure/wrong_date.php');
+    addButton('booking-wrongDate');
+}
 
 ?>
