@@ -1,3 +1,5 @@
+<!-- Modal made with bootstrap that will show that appointment request was a failure since the chosen data is wrong -->
+
 <div class="modal fade" id="booking-wrongDate" data-bs-backdrop="static" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true" data-bs-keyboard="false"> 
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-dark">

@@ -1,3 +1,10 @@
+/**
+ * This script loads the content for bookingContent and performs any database request in this panel.
+ * It's made asynchronously which will not reload the page. see $(document).ready()
+ * It will do validation in requests see bookingDateHandler(), bookingTimeHandler()
+ * After submitting the form the database request is made via ajax which will not reload the page see insertBooking()
+ * The functions are ES6 arrow functions, they work the same as function blabla(){}
+ */
 $(document).ready(()=>{
  $('#bookApp').click(()=>{
      $('#bookingContent').load('./containers/Booking/request_booking.php');

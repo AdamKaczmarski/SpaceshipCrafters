@@ -1,3 +1,4 @@
+<!-- Modal made with bootstrap that will show that the login has failed because fields were empty -->
 <div class="modal fade" data-bs-backdrop="static" id="login-failEmptyModal" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true" data-bs-keyboard="false">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-dark">

@@ -1,4 +1,7 @@
 <?php
+    /* This code load the booking history for the user it's going to be put in div with id bookingContent
+        It will be loaded via jquery Ajax which will not reload the page but just the div
+    */
     session_start();
     if(isset($_SESSION['loggedUser'])){
         

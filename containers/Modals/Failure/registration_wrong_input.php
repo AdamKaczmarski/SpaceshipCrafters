@@ -1,3 +1,5 @@
+<!-- Modal made with bootstrap that will show that registration was not successfull because some fields didn't meet the requirements -->
+
 <div class="modal fade" id="register-failWrongModal" data-bs-backdrop="static" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true" data-bs-keyboard="false"> 
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-dark">

@@ -1,4 +1,7 @@
 <?php 
+/**
+ * This code is the head of the page which has all the meta, stylesheets etc
+ */
     session_start();
 ?>
 <!DOCTYPE HTML>
@@ -14,7 +17,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     
-    <!-- BOOTSTRAP -->
+    <! ––
+*    Title: Bootstrap Modal Plugin
+*    Author: W3Schools.com
+*    Date: 2020
+*    Availability: https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+
+        ––>
+    <!-- 
+        Title: Bootstrap v5.0.0-beta2
+        Authors: Bootstrap Team (https://getbootstrap.com/docs/5.0/about/team/)
+        Date: Initial Release : 2011, Current Version: February 2021
+        Availability: https://getbootstrap.com/
+    -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- BOOTSTRAP -->

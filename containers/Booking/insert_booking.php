@@ -1,4 +1,7 @@
 <?php
+/* This code inserts the booking data from request_booking.php
+        It will be executed by jquery Ajax which will not reload the page
+    */
 session_start();
 
 function scrapeData($conn,$data){

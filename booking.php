@@ -1,4 +1,7 @@
 <?php
+/**
+ * /booking page that loads all the needed content
+ */
 require("./containers/Head/head.php");
 ?>
 <body class="d-flex h-100 bg-dark text-white">

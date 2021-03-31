@@ -1,3 +1,6 @@
+/**
+ * This script is used to validate the register form and show if data entered into the fail is correct
+ */
 $(document).ready(()=>{
     const letters=/^[a-zA-Z]+$/;
     $('#usernameRegister').keyup(()=>{

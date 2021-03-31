@@ -1,4 +1,8 @@
 <?php
+/**
+ * This code handles every error that can happen eg. not connect to database, entering empty fields, taken email etc
+ * This will add an invisible button that will toggle the modal
+ */
 function addButton($modalID){
     echo "<button type=\"button\" id=\"toggleFailModal\"style=\"display:none;\"data-bs-toggle=\"modal\" data-bs-target=\"#$modalID\">
     </button>";

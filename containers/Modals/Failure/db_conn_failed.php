@@ -1,3 +1,4 @@
+<!-- Modal made with bootstrap that will show that the page cannot connect to the database -->
 <div class="modal fade" id="conn-failModal" data-bs-backdrop="static" aria-labelledby="modalTitle" tabindex="-1" aria-hidden="true" data-bs-keyboard="false">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content bg-dark">

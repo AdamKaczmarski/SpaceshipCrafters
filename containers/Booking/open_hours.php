@@ -1,4 +1,7 @@
 <?php
+/* This code is used to display time slots for the user while making a booking request
+The company only allows for 4 time slots a day, since discussing rocket production takes a lot of time.
+This query checks if time slots are available and then prints those which are not taken */
 session_start();
 if (isset($_SESSION['loggedUser'])){
     @require('../../db_operations/db_conn.php');

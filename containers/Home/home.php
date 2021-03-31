@@ -1,3 +1,4 @@
+<!-- Content for the homepage -->
 <main class="px-3">
     <div >
         <h1 class="display-1">Spaceship Crafters </h1>

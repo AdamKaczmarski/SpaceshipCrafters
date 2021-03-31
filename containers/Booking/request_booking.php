@@ -1,4 +1,6 @@
-
+<!--  This code loads the booking form for the user it's going to be put in div with id bookingContent
+        It will be loaded via jquery Ajax which will not reload the page but just the div
+     -->
 <form role="form" method="post" class="align-items-center w-50 mx-auto"">
     <div class="col pt-3">
             <label for="bookingTitle">Please shortly describe your needs for the appointment</label>

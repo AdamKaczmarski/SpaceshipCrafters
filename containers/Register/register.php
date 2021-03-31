@@ -1,3 +1,5 @@
+<!-- Registratrion modal made with bootstrap -->
+
 <div class="modal fade " id="registerModal" tabindex="-1" aria-labelledby="Register" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content bg-dark">

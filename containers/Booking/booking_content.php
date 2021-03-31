@@ -1,6 +1,15 @@
+ <!--
+     Title: jQuery 3.6.0
+     Authors: The jQuery Team
+     Date: Initial Release : 2006, Used Version March 2021
+     Availability: https://jquery.com/ / https://github.com/jquery
+  -->
 <script src="./js/jquery-3.6.0.js"></script>
 <script src="./js/bookingContent.js"></script>
 <?php 
+/**
+ * Just content for the booking it has 2 links which are linked to Ajax(jquery) and will load demanded content in #bookingContent
+ */
 if (isset($_SESSION['loggedUser'])){
     ?>
     <main class="px-3">

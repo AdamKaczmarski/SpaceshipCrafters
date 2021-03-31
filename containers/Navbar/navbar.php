@@ -1,3 +1,4 @@
+<!-- Navbar made with Boostrap -->
 <header class="mb-auto">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">

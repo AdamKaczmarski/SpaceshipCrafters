@@ -1,3 +1,4 @@
+<!-- Login modal made with bootstrap -->
 <div class="modal fade " id="loginModal" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered ">
         <div class="modal-content bg-dark">

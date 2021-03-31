@@ -1,3 +1,4 @@
+<!-- This file loads the content for contact page -->
 <main class="px-3">
 <div class="row">
     <div class="col">
