@@ -10,7 +10,8 @@ $(document).ready(()=>{
  const bookingDateHandler =()=>{
      const date = $("#bookingDate").val();
      const date2= new Date(Date.parse($("#bookingDate").val()));
-     if (date2.getDay()==6 || date2.getDay()==7){
+     
+     if (date2.getDay()==6 || date2.getDay()==0){
         $("#bookingDate").removeClass("is-valid");
         $("#bookingDate").addClass("is-invalid");
      } else {  
